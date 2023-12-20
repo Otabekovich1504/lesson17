@@ -1,0 +1,94 @@
+.block1 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 50px 100px red;
+}
+
+.block2 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 50px 100px rebeccapurple;
+
+}
+
+.block3 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 50px 100px bisque;
+
+}
+
+.block4 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 50px 100px blue;
+
+}
+
+.block5 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 50px 100px black;
+
+}
+
+.block6 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 50px 100px rgb(255, 9, 9);
+
+}
+
+.block7 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 50px 100px rgb(102, 0, 255);
+
+}
+
+.block8 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 50px 100px rgb(0, 255, 195);
+
+}
+
+.block9 {
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 50px 100px rgb(255, 0, 162);
+
+}
+
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container {
+    color: #000;
+    text-align: center;
+    text-shadow: 0px 7px 4px rgba(55, 26, 171, 0.60);
+    font-family: Roboto Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    gap: 65px;
+}
+section{
+    display: flex;
+    gap: 69px;
+}
